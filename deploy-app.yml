@@ -1,0 +1,5 @@
+---
+- hosts: app_hosts
+  roles:
+    - { role: npm, tags: npm }
+    - { role: deploy-app, tags: deploy-app }

@@ -1,0 +1,2 @@
+[app_hosts]
+192.168.122.163 ansible_user=root ansible_become=True
